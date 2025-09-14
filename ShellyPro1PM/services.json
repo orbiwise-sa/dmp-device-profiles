@@ -1,0 +1,36 @@
+[
+    {
+        "name": "SwitchOn",
+        "show_on_ui": true,
+        "buttonText": "[[fa-lightbulb-on]]",
+        "confirm": true,
+        "description": "Sets the output of the Switch component to on."
+    },
+    {
+        "name": "SwitchOff",
+        "show_on_ui": true,
+        "buttonText": "[[fa-lightbulb-slash]]",
+        "confirm": true,
+        "description": "Sets the output of the Switch component to off. "
+    },
+    {
+        "name": "UpdateFirmware",
+        "show_on_ui": true,
+        "buttonText": "[[fa-arrow-up]]",
+        "confirm": true,
+        "description": "Updates the firmware of the device",
+        "parametersSchema": {
+            "type": "object",
+            "properties": {
+                "url": {
+                    "type": "string",
+                    "title": "URL",
+                    "$uiSchemaObject": {
+                        "security": "normal"
+                    }
+                }
+            },
+            "required": []
+        }
+    }
+]

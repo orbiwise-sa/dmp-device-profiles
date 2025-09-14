@@ -1,0 +1,24 @@
+{
+    "type": "object",
+    "properties": {
+        "switchState": {
+            "type": "string",
+            "$uiSchemaObject": {
+                "security": "normal",
+                "enumLabels": [
+                    {
+                        "value": "on"
+                    },
+                    {
+                        "value": "off"
+                    }
+                ]
+            },
+            "enum": [
+                "on",
+                "off"
+            ]
+        }
+    },
+    "required": []
+}

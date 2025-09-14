@@ -1,0 +1,21 @@
+{
+    "profile_uuid": "64200509-1104-4d5a-a8bd-0684f9bcabc2",
+    "shared_with_all_users": false,
+    "profile_name": "ShellyPro1PM",
+    "description": "",
+    "notes": "",
+    "version": null,
+    "deviceType": "custom",
+    "subscribedEvents": "OnData,OnError,OnCreate,OnSuspend,OnUnsuspend,OnChange,OnDelete,OnService,OnIdleTimeout,OnExecutedNamedServiceResp",
+    "periodicTickPeriod": 60,
+    "minNumOfConnections": 0,
+    "maxNumOfConnections": 1,
+    "eventHandlerLanguage": "typescript",
+    "isProtobuf": null,
+    "ulProtobufSchema": null,
+    "dlProtobufSchema": null,
+    "ulProtobufSchemaName": null,
+    "dlProtobufSchemaName": null,
+    "ulMQTTTopicName": null,
+    "dlMQTTTopicName": null
+}
