@@ -1,0 +1,19 @@
+{
+    "type": "object",
+    "properties": {
+        "deveui": {
+            "type": "string",
+            "title": "DevEUI",
+            "description": "64-bit globally unique device identifier",
+            "pattern": "^[0-9A-Fa-f]{16}$",
+            "minLength": 16,
+            "maxLength": 16,
+            "$uiSchemaObject": {
+                "security": "normal"
+            }
+        }
+    },
+    "required": [
+        "deveui"
+    ]
+}

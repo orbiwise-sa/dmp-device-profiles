@@ -1,0 +1,41 @@
+{
+    "type": "object",
+    "properties": {
+        "isRoomOccupied": {
+            "type": "boolean",
+            "title": "Room Occupied Status",
+            "description": "Indicates whether the room is currently occupied"
+        },
+        "occupancyDuration": {
+            "type": "number",
+            "title": "Occupancy Duration (s)",
+            "description": "The amount of time the room has been occupied (in seconds)",
+            "$uiSchemaObject": {
+                "security": "normal"
+            }
+        },
+        "motionDetectionCount": {
+            "type": "number",
+            "title": "The total number of motion events detected",
+            "$uiSchemaObject": {
+                "security": "normal"
+            }
+        },
+        "batteryVoltage": {
+            "type": "number",
+            "title": "Battery Voltage (V)",
+            "$uiSchemaObject": {
+                "security": "normal"
+            }
+        },
+        "temperature": {
+            "type": "number",
+            "title": "Temperature (ÂºC)",
+            "description": "Current temperature (ÃÂºC)",
+            "$uiSchemaObject": {
+                "security": "normal"
+            }
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,22 @@
+{
+    "profile_uuid": "39aff4ee-4cc7-4d90-932b-8de2942932de",
+    "shared_with_all_users": false,
+    "profile_name": "Browan_TBHH100",
+    "description": "BROWAN LoRaWAN Temperature and humidity sensor TBHH100",
+    "notes": "",
+    "version": "",
+    "deviceType": "custom",
+    "subscribedEvents": "OnData,OnIdleTimeout",
+    "periodicTickPeriod": 60,
+    "minNumOfConnections": 0,
+    "maxNumOfConnections": 1,
+    "eventHandlerTestCases": [],
+    "eventHandlerLanguage": "typescript",
+    "isProtobuf": false,
+    "ulProtobufSchema": "",
+    "dlProtobufSchema": "",
+    "ulProtobufSchemaName": "",
+    "dlProtobufSchemaName": "",
+    "ulMQTTTopicName": "",
+    "dlMQTTTopicName": ""
+}

@@ -1,0 +1,42 @@
+{
+    "type": "object",
+    "properties": {
+        "temperature": {
+            "type": "number",
+            "title": "Temperature (ÂºC)",
+            "description": "Current temperature (ÂºC)",
+            "minimum": -100,
+            "maximum": 60,
+            "$uiSchemaObject": {
+                "security": "normal"
+            }
+        },
+        "humidity": {
+            "type": "number",
+            "title": "Humidity (%)",
+            "description": "Relative humidity in percent",
+            "minimum": 0,
+            "maximum": 100,
+            "$uiSchemaObject": {
+                "security": "normal"
+            }
+        },
+        "battery": {
+            "type": "number",
+            "title": "Battery Voltage (V)",
+            "description": "Battery voltage (V)",
+            "$uiSchemaObject": {
+                "security": "normal"
+            }
+        },
+        "status": {
+            "type": "number",
+            "title": "Status",
+            "description": "Sensor status",
+            "$uiSchemaObject": {
+                "security": "normal"
+            }
+        }
+    },
+    "required": []
+}

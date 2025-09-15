@@ -1,0 +1,21 @@
+{
+    "profile_uuid": "b70c41d1-b93d-4735-95e6-ff57174ce678",
+    "shared_with_all_users": false,
+    "profile_name": "Browan_TBMS100",
+    "description": "BROWAN LoRaWAN motion sensor PIR TBMS100",
+    "notes": "",
+    "version": "",
+    "deviceType": "custom",
+    "subscribedEvents": "OnData,OnIdleTimeout",
+    "periodicTickPeriod": 60,
+    "minNumOfConnections": 0,
+    "maxNumOfConnections": 1,
+    "eventHandlerLanguage": "typescript",
+    "isProtobuf": false,
+    "ulProtobufSchema": "",
+    "dlProtobufSchema": "",
+    "ulProtobufSchemaName": "",
+    "dlProtobufSchemaName": "",
+    "ulMQTTTopicName": "",
+    "dlMQTTTopicName": ""
+}
